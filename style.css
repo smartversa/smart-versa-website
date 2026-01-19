@@ -18,8 +18,8 @@ body {
    NAVBAR
 ===================== */
 .navbar {
-  background: #ffffff;          /* WHITE NAVBAR */
-  padding: 20px 60px;           /* premium height */
+  background: #ffffff;
+  padding: 14px 60px;   /* 🔥 yahan height control ho rahi */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,10 +28,12 @@ body {
 
 /* LOGO – PROFESSIONAL BADGE */
 .site-logo {
-  height: 85px;                 /* LOGO BADA */
-  padding: 8px 12px;            /* thoda breathing space */
-  background: transparent;      /* NO WHITE BOX */
-  border-radius: 0;
+  height: 70px;        /* 🔥 logo clearly bada */
+  padding: 0;          /* 🔥 extra space hata di */
+  background: transparent;
+}
+.site-logo {
+  vertical-align: middle;
 }
 
 /* NAV LINKS */
