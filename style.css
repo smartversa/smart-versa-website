@@ -298,3 +298,29 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.trust-line {
+  margin-top: 22px;
+  font-size: 15px;
+  color: rgba(255,255,255,0.85);
+}
+.trust-line strong {
+  color: #f9b233;
+}
+.why-points {
+  list-style: none;
+  margin-top: 25px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-points li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.cta-sub {
+  margin-bottom: 25px;
+  font-size: 16px;
+  opacity: 0.9;
+}
