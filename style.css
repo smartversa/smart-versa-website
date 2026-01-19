@@ -76,6 +76,9 @@ ul {
 ul li {
   margin-bottom: 8px;
 }
+.about {
+  background: #f4f7fb;
+}
 
 .site-logo {
   height: 45px;
