@@ -465,7 +465,8 @@ footer {
   background-position: center;
   text-align: center;
   padding: 120px 20px;
-  color: #ffffff;
+  color:#f9b233
+  font-weight: 500;
 }
 
 .contact-hero h1 {
