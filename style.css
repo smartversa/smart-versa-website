@@ -248,7 +248,7 @@ section p {
 
 /* PROGRAM CARD */
 .program-card {
-  background: #ffffff;
+  background: #0b2a45;   /* 🔥 dark blue */
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 10px 26px rgba(0,0,0,0.12);
@@ -273,13 +273,13 @@ section p {
 
 .program-content h3 {
   font-size: 22px;
-  color: #081a2b;
+  color: #ffffff;       /* 🔥 white */
   margin-bottom: 8px;
 }
 
 .program-desc {
   font-size: 15px;
-  color: #ffffff;
+  color: #ffffff;       /* 🔥 NOW VISIBLE */
   margin-bottom: 14px;
 }
 
@@ -291,12 +291,11 @@ section p {
 
 .program-details li {
   font-size: 14px;
-  color: #333;
-  margin-bottom: 6px;
+  color: #e6e6e6;
 }
 
 .program-details strong {
-  color: #081a2b;
+  color: #f9b233;       /* yellow highlight */
 }
 
 /* 🔥 PROGRAM DETAIL PAGE – subtitle / description WHITE */
