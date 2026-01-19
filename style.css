@@ -298,15 +298,19 @@ section p {
   color: #f9b233;       /* yellow highlight */
 }
 
-/* 🔥 PROGRAM DETAIL PAGE – subtitle / description WHITE */
 .program-hero p,
-.program-header p,
+.program-hero .subtitle,
 .program-hero .program-desc,
-.program-hero .subtitle {
+.program-hero span,
+.program-hero small {
   color: #ffffff !important;
   opacity: 0.95;
 }
 
+/* Safety: agar direct hero ke andar p hai */
+.program-hero * {
+  color: #ffffff;
+}
 
 /* SMALL BUTTON */
 .btn.small {
