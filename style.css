@@ -77,6 +77,10 @@ ul li {
   margin-bottom: 8px;
 }
 
+.site-logo {
+  height: 45px;
+}
+
 /* FOOTER */
 footer {
   background: #0b1c2d;
