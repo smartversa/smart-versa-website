@@ -254,11 +254,17 @@ section p {
 .trust-line {
   margin-top: 22px;
   font-size: 15px;
-  color: rgba(255,255,255,0.85);
+  color: #ffffff;          /* base white */
 }
 
-.trust-line strong {
-  color: #f9b233;
+.trust-num {
+  color: #f9b233;          /* 🔥 yellow numbers */
+  font-weight: 700;
+}
+
+.trust-text {
+  color: #ffffff;          /* 🔥 white text */
+  font-weight: 500;
 }
 
 /* FOOTER */
