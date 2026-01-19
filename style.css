@@ -299,6 +299,16 @@ section p {
   color: #081a2b;
 }
 
+/* 🔥 PROGRAM DETAIL PAGE – subtitle / description WHITE */
+.program-hero p,
+.program-header p,
+.program-hero .program-desc,
+.program-hero .subtitle {
+  color: #ffffff !important;
+  opacity: 0.95;
+}
+
+
 /* SMALL BUTTON */
 .btn.small {
   padding: 10px 18px;
