@@ -556,6 +556,133 @@ footer {
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
+/* =====================
+   ABOUT PAGE
+===================== */
+
+.about-hero {
+  background: linear-gradient(rgba(8,26,43,0.88), rgba(8,26,43,0.88)),
+    url("https://images.unsplash.com/photo-1522071820081-009f0129c71c");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px 20px;
+  color: #ffffff;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* MAIN ABOUT SECTION */
+.about-page {
+  padding: 90px 80px;
+  background: #f4f7fb;
+}
+
+.about-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+}
+
+/* TEXT */
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #081a2b;
+}
+
+.about-text h3 {
+  margin-top: 22px;
+  font-size: 20px;
+  color: #081a2b;
+}
+
+.about-text p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* HIGHLIGHTS */
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.highlight-card {
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+}
+
+.highlight-card h4 {
+  font-size: 30px;
+  color: #f9b233;
+  margin-bottom: 5px;
+}
+
+.highlight-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* WHY SECTION */
+.why-about {
+  padding: 80px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.why-about h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #081a2b;
+}
+
+.why-about ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+}
+
+.why-about li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .about-page {
+    padding: 60px 25px;
+  }
+
+  .about-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero h1 {
+    font-size: 28px;
+  }
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+}
 
   .contact-hero h1 {
     font-size: 28px;
