@@ -1,3 +1,13 @@
+header {
+  background:
+    linear-gradient(rgba(11,28,45,0.8), rgba(11,28,45,0.8)),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
 * {
   margin: 0;
   padding: 0;
