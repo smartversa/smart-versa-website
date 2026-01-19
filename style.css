@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e6e6e6;
+  flex-wrap: wrap; /* 🔥 safety for small screens */
 }
 
 /* LOGO */
@@ -37,6 +38,8 @@ body {
 .navbar ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;            /* 🔥 Contact cut hone se bachega */
+  justify-content: flex-end;
 }
 
 .navbar ul li {
@@ -48,7 +51,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
-  white-space: nowrap; /* safety */
+  white-space: nowrap;        /* 🔥 text break nahi hoga */
 }
 
 .navbar ul li a:hover {
@@ -183,6 +186,22 @@ section p {
   margin: 0 auto;
 }
 
+/* ✅ FIX: BULLET + TICK ISSUE */
+.why-points {
+  list-style: none;           /* 🔥 bullet remove */
+  padding-left: 0;
+  margin-top: 25px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-points li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
 /* PROCESS */
 .process ol {
   max-width: 650px;
@@ -223,6 +242,25 @@ section p {
   margin-bottom: 20px;
 }
 
+/* ✅ FIX: LIMITED SEATS TEXT */
+.cta-sub {
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #ffffff;        /* 🔥 pure white */
+  opacity: 0.9;
+}
+
+/* TRUST LINE */
+.trust-line {
+  margin-top: 22px;
+  font-size: 15px;
+  color: rgba(255,255,255,0.85);
+}
+
+.trust-line strong {
+  color: #f9b233;
+}
+
 /* FOOTER */
 footer {
   background: #071829;
@@ -239,7 +277,6 @@ footer {
 
   .navbar {
     padding: 12px 20px;
-    flex-wrap: wrap;
   }
 
   .site-logo {
@@ -250,7 +287,6 @@ footer {
     width: 100%;
     justify-content: center;
     margin-top: 8px;
-    flex-wrap: wrap;
   }
 
   .navbar ul li {
@@ -259,7 +295,6 @@ footer {
 
   .navbar ul li a {
     font-size: 14px;
-    white-space: nowrap;
   }
 
   .hero {
@@ -297,30 +332,4 @@ footer {
   .feature-grid {
     grid-template-columns: 1fr;
   }
-}
-.trust-line {
-  margin-top: 22px;
-  font-size: 15px;
-  color: rgba(255,255,255,0.85);
-}
-.trust-line strong {
-  color: #f9b233;
-}
-.why-points {
-  list-style: none;
-  margin-top: 25px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.why-points li {
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #333;
-}
-.cta-sub {
-  margin-bottom: 25px;
-  font-size: 16px;
-  opacity: 0.9;
 }
