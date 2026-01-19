@@ -18,20 +18,20 @@ body {
    NAVBAR
 ===================== */
 .navbar {
-  background: linear-gradient(90deg, #071829, #0b2a45);
-  padding: 18px 70px;
+  background: #ffffff;          /* WHITE NAVBAR */
+  padding: 20px 60px;           /* premium height */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 /* LOGO – PROFESSIONAL BADGE */
 .site-logo {
-  height: 40px;
-  padding: 8px 12px;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+  height: 55px;                 /* LOGO BADA */
+  padding: 6px 10px;            /* thoda breathing space */
+  background: transparent;      /* NO WHITE BOX */
+  border-radius: 0;
 }
 
 /* NAV LINKS */
@@ -45,14 +45,15 @@ body {
 }
 
 .navbar ul li a {
-  color: #ffffff;
+  color: #0b3c5d;               /* PROFESSIONAL BLUE */
   text-decoration: none;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
 }
 
+
 .navbar ul li a:hover {
-  color: #f9b233;
+  color: #1d70b8;
 }
 
 /* =====================
