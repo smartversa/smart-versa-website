@@ -1058,3 +1058,29 @@ footer a:hover {
   opacity: 1 !important;
 }
 
+/* ===== HERO COLOR CUSTOMIZATION ===== */
+
+/* MAIN HERO HEADING */
+.hero h1 {
+  color: #f9b233 !important; /* 🔥 Yellow */
+}
+
+/* HERO SUBTEXT */
+.hero p {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+/* TRUST LINE */
+.hero-trust {
+  margin-top: 18px;
+  font-size: 15px;
+  color: #ffffff; /* 🔥 White text */
+  font-weight: 500;
+}
+
+/* TRUST NUMBERS */
+.hero-trust .trust-num {
+  color: #f9b233; /* 🔥 Yellow numbers */
+  font-weight: 700;
+}
