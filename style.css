@@ -706,3 +706,61 @@ footer {
   color: #ffffff !important;
   opacity: 1;
 }
+/* =====================
+   PROGRAM DETAIL PAGE
+===================== */
+.program-hero {
+  background: linear-gradient(rgba(8,26,43,0.9), rgba(8,26,43,0.9)),
+    url("https://images.unsplash.com/photo-1552664730-d307ca884978");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 130px 20px;
+  color: #ffffff;
+}
+
+.program-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.program-hero p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  font-size: 18px;
+}
+
+.program-section {
+  padding: 80px 90px;
+  background: #ffffff;
+}
+
+.program-section.light {
+  background: #f4f7fb;
+}
+
+.check-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.check-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.timeline li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .program-section {
+    padding: 50px 25px;
+  }
+
+  .program-hero h1 {
+    font-size: 28px;
+  }
+}
