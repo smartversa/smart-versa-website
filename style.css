@@ -1044,3 +1044,17 @@ footer a:hover {
   font-size: 13px;
   color: #777;
 }
+/* ===== HERO TEXT VISIBILITY FIX (CONTACT + ABOUT + PROGRAM) ===== */
+
+.hero h1,
+.hero p,
+.contact-hero h1,
+.contact-hero p,
+.about-hero h1,
+.about-hero p,
+.program-hero h1,
+.program-hero p {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
