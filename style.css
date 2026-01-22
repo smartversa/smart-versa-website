@@ -764,3 +764,36 @@ footer {
     font-size: 28px;
   }
 }
+/* =====================
+   FAQ PAGE
+===================== */
+
+.faq-page {
+  padding: 90px 80px;
+  background: #ffffff;
+}
+
+.faq-box {
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq-box h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  color: #081a2b;
+}
+
+.faq-box p {
+  font-size: 15px;
+  color: #444;
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .faq-page {
+    padding: 60px 25px;
+  }
+}
