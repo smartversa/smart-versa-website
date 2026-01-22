@@ -690,3 +690,16 @@ footer {
   }
 }
 
+/* ===== PROGRAM DETAIL HERO TEXT FIX ===== */
+.program-hero h1 {
+  color: #ffffff !important;
+}
+
+.program-hero p,
+.program-hero .subtitle {
+  color: #ffffff !important;
+  opacity: 0.95;
+  font-size: 16px;
+  max-width: 750px;
+  margin-top: 10px;
+}
