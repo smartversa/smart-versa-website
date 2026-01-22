@@ -226,12 +226,12 @@ section p {
 
 .programs-header h1 {
   font-size: 36px;
-  color: #ffffff;
+  color: #081a2b;
   margin-bottom: 10px;
 }
 .programs-header p {
-  color: #ffffff;
-  opacity: 0.95;
+  color: #555555;
+  opacity: 1;
 }
 
 .program-hero p {
