@@ -698,3 +698,11 @@ footer {
   opacity: 0.9;
 }
 
+/* ===== FORCE PROGRAM HERO TEXT WHITE ===== */
+.hero h1,
+.hero p,
+.hero span,
+.hero small {
+  color: #ffffff !important;
+  opacity: 1;
+}
