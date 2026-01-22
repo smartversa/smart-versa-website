@@ -553,14 +553,13 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-
   .contact-section {
     padding: 60px 25px;
   }
-
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
+}
 /* =====================
    ABOUT PAGE
 ===================== */
