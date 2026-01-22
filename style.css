@@ -1023,3 +1023,24 @@ footer a:hover {
   margin-bottom: 10px;
   font-size: 15px;
 }
+.apply-card {
+  text-align: center;
+}
+
+.apply-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.apply-btn {
+  font-size: 16px;
+  padding: 14px 36px;
+  border-radius: 8px;
+}
+
+.apply-note {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
