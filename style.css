@@ -1084,3 +1084,15 @@ footer a:hover {
   color: #f9b233; /* 🔥 Yellow numbers */
   font-weight: 700;
 }
+/* ===== HERO TRUST LINE FIX ===== */
+.hero-trust {
+  margin-top: 18px;
+  font-size: 15px;
+  color: #ffffff;        /* text white */
+  font-weight: 500;
+}
+
+.hero-trust .trust-num {
+  color: #f9b233;        /* 🔥 yellow numbers */
+  font-weight: 700;
+}
