@@ -229,6 +229,10 @@ section p {
   color: #ffffff;
   margin-bottom: 10px;
 }
+.programs-header p {
+  color: #ffffff;
+  opacity: 0.95;
+}
 
 .program-hero p {
   color: #ffffff !important;
@@ -465,7 +469,7 @@ footer {
   background-position: center;
   text-align: center;
   padding: 120px 20px;
-  color:#f9b233
+  color:#ffffff;
   font-weight: 500;
 }
 
