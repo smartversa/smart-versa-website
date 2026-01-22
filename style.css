@@ -954,3 +954,50 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* =====================
+   POLICY PAGES
+===================== */
+
+.policy-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 90px 20px;
+}
+
+.policy-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #081a2b;
+}
+
+.policy-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.policy-page h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #081a2b;
+}
+
+.policy-page p,
+.policy-page li {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.policy-page ul {
+  margin-left: 20px;
+}
+
+footer a {
+  color: #f9b233;
+  text-decoration: none;
+  margin: 0 6px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
