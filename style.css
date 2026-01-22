@@ -1013,3 +1013,13 @@ footer a:hover {
 .contact-form-card button {
   width: 100%;
 }
+.footer-apply {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-apply p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
