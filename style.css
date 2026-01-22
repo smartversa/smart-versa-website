@@ -1001,3 +1001,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.contact-form-card select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form-card button {
+  width: 100%;
+}
