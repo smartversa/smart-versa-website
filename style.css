@@ -724,25 +724,27 @@ footer {
 /* =====================
    PROGRAM DETAIL PAGE
 ===================== */
-.program-hero {
-  background: linear-gradient(rgba(8,26,43,0.9), rgba(8,26,43,0.9)),
-    url("https://images.unsplash.com/photo-1552664730-d307ca884978");
+.programs-header {
+  background:
+    linear-gradient(rgba(8, 26, 43, 0.85), rgba(8, 26, 43, 0.85)),
+    url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 130px 20px;
-  color: #ffffff;
+  padding: 140px 20px;
 }
-
-.program-hero h1 {
+.programs-header h1 {
   font-size: 42px;
-  margin-bottom: 10px;
+  color: #ffffff;
+  margin-bottom: 12px;
 }
 
-.program-hero p {
-  max-width: 700px;
-  margin: 0 auto 25px;
-  font-size: 18px;
+.programs-header p {
+  font-size: 17px;
+  color: #ffffff;
+  opacity: 0.95;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .program-section {
@@ -771,12 +773,16 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  .program-section {
-    padding: 50px 25px;
+  .programs-header {
+    padding: 110px 20px;
   }
 
-  .program-hero h1 {
+  .programs-header h1 {
     font-size: 28px;
+  }
+
+  .programs-header p {
+    font-size: 14px;
   }
 }
 /* =====================
