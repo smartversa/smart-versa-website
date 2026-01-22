@@ -693,3 +693,9 @@ footer {
     font-size: 28px;
   }
 }
+/* CONTACT HERO SUBTITLE FIX */
+.contact-hero p {
+  color: #ffffff !important;
+  opacity: 0.9;
+}
+
