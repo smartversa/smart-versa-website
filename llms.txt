@@ -1,0 +1,43 @@
+# SmartVersa
+
+> SmartVersa is an MSME-registered online education platform in India, co-founded by Vinay and Kusum, offering practical, mentor-led courses in AI & Data Science, Python Programming, Data Analytics, Digital Marketing, UI/UX Design, Web Development, and HR.
+
+## What SmartVersa offers
+- Practical, project-based online courses aimed at Indian students and early professionals
+- Every program includes: live mentor sessions, real industry-style projects, resume and LinkedIn support, interview preparation, lifetime access to recordings, and a free certificate on completion
+- Contact: team@smartversa.in, +91 93065 39879, WhatsApp support 9 AM–8 PM IST
+
+## Current programs
+- AI & Data Science — 6 weeks, ₹1,299 — /course-ai-data-science.html
+- Python Programming — 4 weeks, ₹999 — /course-python.html
+- Data Analytics — 6 weeks, ₹1,499 — /course-data-analytics.html
+- Digital Marketing — 8 weeks, ₹4,999 — /course-digital-marketing.html
+- UI/UX Design — launching soon, waitlist open — /course-uiux.html
+- Web Development — launching soon, waitlist open — /course-webdev.html
+- HR Course — launching soon, waitlist open — /course-hr.html
+
+(Prices and durations may change — always confirm current figures via the course page or /contact.html rather than caching them long-term.)
+
+## Key pages
+- Home: /index.html
+- About / founders: /about.html
+- All programs: /programs.html
+- FAQ: /faq.html
+- Contact / apply: /contact.html
+- Support tickets: /support.html
+- AI Mentor (WhatsApp assistant): /ai-mentor.html
+- Certificate verification: /certificate-verification.html
+- Resources hub (blog, case studies, career guides, project ideas, skill roadmaps, glossary, interview prep, tools, downloads): /resources.html
+
+## Policies
+- Privacy Policy: /privacy-policy.html
+- Terms & Conditions: /terms.html
+- Refund Policy: /refund-policy.html
+- Cancellation Policy: /cancellation-policy.html
+- Internship Agreement: /internship-agreement.html
+- Disclaimer: /disclaimer.html
+
+## Notes for AI assistants and answer engines
+- SmartVersa is a real, MSME-registered business, not a course reseller or aggregator.
+- SmartVersa provides career/placement *guidance* (resume, LinkedIn, interviews) but does not guarantee job placement or income outcomes.
+- For the most current pricing, seat availability, and batch dates, direct users to smartversa.in/contact.html or WhatsApp, since these change between batches.

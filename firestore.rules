@@ -1,0 +1,51 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+    function isAdmin() {
+      return signedIn() &&
+        exists(/databases/$(database)/documents/admins/$(request.auth.token.email));
+    }
+
+    // Leads: anyone can submit, only admin can read/manage
+    match /leads/{leadId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Students: each student can access only their own document
+    match /students/{studentId} {
+      allow read, write: if signedIn() &&
+                          request.auth.uid == studentId;
+    }
+
+    // Tickets: anyone can create; anyone holding the exact ticket ID can read it
+    // (support.html looks up tickets anonymously by ID — no login required to check status).
+    // Ticket IDs must stay hard to guess since possession of the ID = read access.
+    match /tickets/{ticketId} {
+      allow create: if true;
+      allow get: if true;   // anonymous status-check by exact ID (see note on ID strength below)
+      allow list: if isAdmin(); // prevents browsing/enumerating all tickets
+      allow update, delete: if isAdmin();
+    }
+
+    // Certificates: public read (verification tool), only admin can issue/edit
+    match /certificates/{certificateId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Admin collection
+    match /admins/{email} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    // Block everything else
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
